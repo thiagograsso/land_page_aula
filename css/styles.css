@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 72px;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+.section-padding {
+    padding: 72px 0;
+}
+
+.logo {
+    width: 140px;
+    height: auto;
+}
+
+.hero-section {
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #f8f9fa, #e9f7ef);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero-section .lead {
+    max-width: 650px;
+}
